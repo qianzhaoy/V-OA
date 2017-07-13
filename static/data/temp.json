@@ -1,0 +1,33 @@
+{
+	"id": 1,
+	"label": "页面名称",
+	"procedures": {
+		"element": [{
+			"label": "投票",
+			"type": "Vote",
+			"childrens":[{
+					"label": "我的名字",
+					"type": "Cell",
+					"default": "20票",
+					"fieldId": "node0"
+				},{
+					"label": "我的名字",
+					"type": "Cell",
+					"default": "21票",
+					"fieldId": 1
+				},{
+					"label": "我的名字",
+					"type": "Cell",
+					"default": "22票",
+					"fieldId": 2
+				},{
+					"label": "我的名字",
+					"type": "Cell",
+					"default": "23",
+					"fieldId": 3
+				}],
+			"default": {},
+			"fieldId": "vote"
+		}]
+	}
+}
